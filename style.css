@@ -20,13 +20,18 @@ a:hover, a:active { text-decoration: none; color: #26A879; }
 
 html, body {
     max-width: 100%;
-    overflow-x: hidden;
+    overflow: auto;
     line-height: 20px;
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
 }
 
 body {
 	padding: 40px;
-	overflow-x: hidden; /* For Opera */
+  overflow: auto;
 	-webkit-box-shadow:
   inset #70777f 0 0 0 3px,
   inset #5d646a 0 0 0 1px,
