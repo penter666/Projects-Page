@@ -2,11 +2,14 @@
 
 *{font-family:MesloLGL;}
 
+#gang:hover{
+  color: #D4809D;
+}
+
 a:visited { text-decoration: none; color:#C9CACC; }
 a:hover { text-decoration: none; color:#26A879; }
 a:focus { text-decoration: none; color:#26A879; }
 a:hover, a:active { text-decoration: none; color: #26A879; }
-#gang:hover, #gang:active { text-decoration: none; color: #D4809D; }
 
 
 .page-wrap {
