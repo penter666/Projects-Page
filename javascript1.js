@@ -1,5 +1,3 @@
-
-
 var disqus_config = function () {
 this.page.url = 'https://pentirecords.github.io/Penti/index2.html';
 this.page.identifier = PAGE_IDENTIFIER;

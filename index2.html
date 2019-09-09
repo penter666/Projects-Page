@@ -6,9 +6,7 @@
     <meta charset="utf-8">
     <title>Penti</title>
   <script src="https://kit.fontawesome.com/c1a1e674a2.js"></script>
-
   </head>
-
 
   <body>
     <div class="page-wrap">
@@ -20,11 +18,15 @@
          <img id="Library" src="images/dcc.svg" alt="skull logo" class="logo">
         </div>
 
-         <nav class="projects">
-          <ul>
-              <li id="home"><a href="https://pentirecords.github.io/Penti/">home</a></li>
-          </ul>
-         </nav>
+         <div class="dropdown">
+           <button onclick="myFunction()" class="dropbtn"></button>
+           <div id="myDropdown" class="dropdown-content">
+             <a href="https://pentirecords.github.io/Penti/">Home</a>
+             <a href="#">Writing</a>
+             <a href="#">Projects</a>
+           </div>
+         </div>
+
         </header>
       </div>
 
@@ -45,6 +47,11 @@
          <h2>CodeText</h2>
        </div>
 
+      </div>
+
+
+      <div class="javabutton">
+        <script type="text/javascript" src="javascript2.js"></script>
       </div>
 
       <div id="disqus_thread" class="page-wrap"></div>

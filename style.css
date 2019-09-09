@@ -25,6 +25,38 @@ html, body {
 }
 
 body {
+	padding: 40px;
+	overflow-x: hidden; /* For Opera */
+	-webkit-box-shadow:
+  inset #70777f 0 0 0 3px,
+  inset #5d646a 0 0 0 1px,
+  inset #545a60 0 0 0 5px,
+  inset #4b5055 0 0 0 6px,
+  inset #42464b 0 0 0 8px,
+  inset #393c40 0 0 0 10px,
+  inset #2f3336 0 0 0 11px,
+  inset #26292b 0 0 0 12px;
+	-moz-box-shadow:
+  inset #70777f 0 0 0 3px,
+  inset #5d646a 0 0 0 1px,
+  inset #545a60 0 0 0 5px,
+  inset #4b5055 0 0 0 6px,
+  inset #42464b 0 0 0 8px,
+  inset #393c40 0 0 0 10px,
+  inset #2f3336 0 0 0 11px,
+  inset #26292b 0 0 0 12px;
+	box-shadow:
+  inset #70777f 0 0 0 3px,
+  inset #5d646a 0 0 0 1px,
+  inset #545a60 0 0 0 5px,
+  inset #4b5055 0 0 0 6px,
+  inset #42464b 0 0 0 8px,
+  inset #393c40 0 0 0 10px,
+  inset #2f3336 0 0 0 11px,
+  inset #26292b 0 0 0 12px;
+}
+
+body {
   margin: 0;
   background: #1D1F21;
   font-family: 'Roboto', sans-serif;
@@ -139,4 +171,63 @@ ul {
 
 .writinggeneral {
     padding-bottom: 200px;
+}
+
+/*Button aci */
+
+.dropbtn {
+  background-color: #1D1F21;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #1D1F21;
+}
+
+.dropdown {
+  display: inline-block;
+  position:absolute;
+  top: 2%;
+  right: 96%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #1D1F21;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  color: #C9CACC;
+  padding: 15px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+/*Buttonimage*/
+button {
+  background-image: url(images/ham.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  /* put the height and width of your image here */
+  height: 50px;
+  width: 50px;
+  border: none;
+}
+
+button span {
+  display: none;
 }
