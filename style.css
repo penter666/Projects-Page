@@ -91,6 +91,16 @@ ul {
     color: #666666;
 }
 
+#writingdata2 {
+    color: #666666;
+    padding-bottom: 50px;
+}
+
+.textexample {
+    color: #C9CACC;
+    padding-bottom: 50px;
+}
+
 #home {
  float: left;
  text-align: center;
