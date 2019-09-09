@@ -1,5 +1,6 @@
 @font-face { font-family: MesloLGL; src: url('MesloLGL-Regular.ttf'); }
 
+*{font-family:MesloLGL;}
 
 a:visited { text-decoration: none; color:#C9CACC; }
 a:hover { text-decoration: none; color:#26A879; }
@@ -12,7 +13,6 @@ a:hover, a:active { text-decoration: none; color: #26A879; }
      margin: 0 auto;
 }
 
-*{font-family:MesloLGL;}
 
 html, body {
     max-width: 100%;
@@ -66,16 +66,6 @@ ul {
   font-size: 10px;
 }
 
-.writinglinks {
-    list-style-type: none;
-    color: #C9CACC;
-    position: relative;
-    left: 120px;
-    bottom: 185px;
-  	line-height: 2.2rem;
-
-}
-
 .projectslinks {
     list-style-type: none;
     color: #C9CACC;
@@ -85,9 +75,17 @@ ul {
 
 }
 
+
+#writinglinks {
+    list-style-type: none;
+    color: #C9CACC;
+    padding: 0px 0px 0px 0px;
+}
+
+
 .writingdata {
     color: #666666;
-    padding: 0px 200px 0px 0px;
+    padding: 0px 0px 200px 0px;
 }
 
 #home {
@@ -111,15 +109,17 @@ ul {
     font-size: 16px;
 }
 
-#gang {
-  position: relative;
-  bottom: 40px;
-  left: 105px;
+.upwriting a {
+    color: #C9CACC;
+    text-decoration: none;
 }
 
+.writingdata a {
+    color: #C9CACC;
+    text-decoration: none;
+}
 
-#gang2 {
-  position: relative;
-  bottom: 40px;
-  left: 105px;
+.projectslinks a {
+    color: #C9CACC;
+    text-decoration: none;
 }
