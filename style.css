@@ -83,9 +83,8 @@ ul {
 }
 
 
-.writingdata {
+#writingdata {
     color: #666666;
-    padding: 0px 0px 200px 0px;
 }
 
 #home {
@@ -122,4 +121,9 @@ ul {
 .projectslinks a {
     color: #C9CACC;
     text-decoration: none;
+}
+
+
+.writinggeneral {
+    padding-bottom: 200px;
 }
