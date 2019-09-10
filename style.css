@@ -43,37 +43,7 @@ html, body {
     right:0;
 }
 
-body {
-	padding: 40px;
-  overflow: auto;
-	-webkit-box-shadow:
-  inset #70777f 0 0 0 3px,
-  inset #5d646a 0 0 0 1px,
-  inset #545a60 0 0 0 5px,
-  inset #4b5055 0 0 0 6px,
-  inset #42464b 0 0 0 8px,
-  inset #393c40 0 0 0 10px,
-  inset #2f3336 0 0 0 11px,
-  inset #26292b 0 0 0 12px;
-	-moz-box-shadow:
-  inset #70777f 0 0 0 3px,
-  inset #5d646a 0 0 0 1px,
-  inset #545a60 0 0 0 5px,
-  inset #4b5055 0 0 0 6px,
-  inset #42464b 0 0 0 8px,
-  inset #393c40 0 0 0 10px,
-  inset #2f3336 0 0 0 11px,
-  inset #26292b 0 0 0 12px;
-	box-shadow:
-  inset #70777f 0 0 0 3px,
-  inset #5d646a 0 0 0 1px,
-  inset #545a60 0 0 0 5px,
-  inset #4b5055 0 0 0 6px,
-  inset #42464b 0 0 0 8px,
-  inset #393c40 0 0 0 10px,
-  inset #2f3336 0 0 0 11px,
-  inset #26292b 0 0 0 12px;
-}
+
 
 body {
   margin: 0;
