@@ -256,67 +256,67 @@ button span {
 .writing {
 
    /* Chrome, Safari, Opera */
-  -webkit-animation: rainbow 60s infinite;
+  -webkit-animation: rainbow 3s infinite;
 
   /* Internet Explorer */
-  -ms-animation: rainbow 60s infinite;
+  -ms-animation: rainbow 3s infinite;
 
   /* Standar Syntax */
-  animation: rainbow 60s infinite;
+  animation: rainbow 3s infinite;
 }
 .writing2 {
 
    /* Chrome, Safari, Opera */
-  -webkit-animation: rainbow 60s infinite;
+  -webkit-animation: rainbow 3s infinite;
 
   /* Internet Explorer */
-  -ms-animation: rainbow 60s infinite;
+  -ms-animation: rainbow 3s infinite;
 
   /* Standar Syntax */
-  animation: rainbow 60s infinite;
+  animation: rainbow 3s infinite;
 }
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes rainbow{
   0%{color: #26A879;}
-  10%{color: #17B595;}
-	20%{color: #0DBFB9;}
-  30%{color: #07ACC5;}
-	40%{color: #048DC8;}
-  50%{color: #016DCB;}
-	60%{color: #048DC8;}
-  70%{color: #07ACC5;}
-  80%{color: #0DBFB9;}
-  90%{color: #17B595;}
+  10%{color: #0DBF89;}
+	20%{color: #07C599;}
+  30%{color: #01CBA9;}
+	40%{color: #00CCB8;}
+  50%{color: #00CCC5;}
+	60%{color: #00CCB8;}
+  70%{color: #01CBA9;}
+  80%{color: #07C599;}
+  90%{color: #0DBF89;}
 	100%{color: #26A879;}
 }
 
 /* Internet Explorer */
 @-ms-keyframes rainbow{
   0%{color: #26A879;}
-  10%{color: #17B595;}
-	20%{color: #0DBFB9;}
-  30%{color: #07ACC5;}
-	40%{color: #048DC8;}
-  50%{color: #016DCB;}
-	60%{color: #048DC8;}
-  70%{color: #07ACC5;}
-  80%{color: #0DBFB9;}
-  90%{color: #17B595;}
+  10%{color: #0DBF89;}
+	20%{color: #07C599;}
+  30%{color: #01CBA9;}
+	40%{color: #00CCB8;}
+  50%{color: #00CCC5;}
+	60%{color: #00CCB8;}
+  70%{color: #01CBA9;}
+  80%{color: #07C599;}
+  90%{color: #0DBF89;}
 	100%{color: #26A879;}
 }
 
 /* Standar Syntax */
 @keyframes rainbow{
   0%{color: #26A879;}
-  10%{color: #17B595;}
-	20%{color: #0DBFB9;}
-  30%{color: #07ACC5;}
-	40%{color: #048DC8;}
-  50%{color: #016DCB;}
-	60%{color: #048DC8;}
-  70%{color: #07ACC5;}
-  80%{color: #0DBFB9;}
-  90%{color: #17B595;}
+  10%{color: #0DBF89;}
+	20%{color: #07C599;}
+  30%{color: #01CBA9;}
+	40%{color: #00CCB8;}
+  50%{color: #00CCC5;}
+	60%{color: #00CCB8;}
+  70%{color: #01CBA9;}
+  80%{color: #07C599;}
+  90%{color: #0DBF89;}
 	100%{color: #26A879;}
 }
